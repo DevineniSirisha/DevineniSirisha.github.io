@@ -3,9 +3,9 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: 100%;
   background-color: rgb(26, 94, 62);
 }
-
 li {
   float: left;
 }
@@ -30,4 +30,23 @@ li a:hover {
 
 .sm{
   font-size: 20px;
+}
+
+.sidenav {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(216, 198, 198);
+  overflow-x: hidden;
+  padding-top: 20px;
+}.sidenav1 {
+  height: 190px;
+  width: 100%;
+  position: relative;
+  top: 250px;  
+  background-color: rgb(216, 198, 198);
+
 }
